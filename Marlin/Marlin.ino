@@ -1,3 +1,8 @@
+#include <ESP8266WiFiMesh.h>
+#include <NetworkInfo.h>
+#include <TransmissionResult.h>
+#include <TypeConversionFunctions.h>
+
 /*
 ================================================================================
 
