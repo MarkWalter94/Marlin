@@ -1,4 +1,5 @@
-__Start of customizations
+__Start of customizations__
+<img align="center" src="marlin dev.jpg" />
 ## Adaptation for the sapphire PRO 
 This is a porting from https://github.com/inib/Marlin/tree/2.0.X-SapphirePro-3.5TFT, you can find all the work and information on his website 
 https://escope.de/posts/sapphire-pro-marlin/
@@ -9,12 +10,16 @@ What i've done is porting and cleaning the code, now is fully synch with dev-2.1
 __This version is using tmc2208 also on extruder and z-axes, remeber to change the settings in the configuration file if you have a different configuration.__
 
 1 - Open the project with visual studio code (using platformio plugin) and compile it.
+
 2 - You'll find under \.pio\build\mks_robin_nano the file Robin_nano.bin, rename it to Robin_nano35.bin and put it in the sd card.
+
 3 - Turn on the printer et voilà.
 
 ## Modding the configuration file.
 If you open the configuration file you'll find 'TODO 1' and then..
+
 #define TMC2208_ON_E0
+
 #define TMC2208_ON_Z
 
 Comment these out if you have the standard driver A4988.x
