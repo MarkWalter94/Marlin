@@ -1,4 +1,4 @@
-__Start of personalizations__
+__Start of customizations
 ## Adaptation for the sapphire PRO 
 This is a porting from https://github.com/inib/Marlin/tree/2.0.X-SapphirePro-3.5TFT, you can find all the work and information on his website 
 https://escope.de/posts/sapphire-pro-marlin/
@@ -20,7 +20,7 @@ If you open the configuration file you'll find 'TODO 1' and then..
 Comment these out if you have the standard driver A4988.x
 There is a work in progress to permit changes in the config like these.
 
-__End of personalizations__
+__End of customizations__
 
 # Marlin 3D Printer Firmware
 
