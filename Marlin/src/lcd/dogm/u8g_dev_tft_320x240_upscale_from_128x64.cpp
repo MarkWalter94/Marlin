@@ -225,8 +225,6 @@ static uint32_t lcd_id = 0;
 // check positions for new offsets
 // --> done. see marlin/src/feature/touch/xpt2046.cpp
 
-#if ENABLED(TOUCH_BUTTONS)
-
 static void setWindow_ili9328(u8g_t *u8g, u8g_dev_t *dev, uint16_t Xmin, uint16_t Ymin, uint16_t Xmax, uint16_t Ymax) {
   #ifdef LCD_USE_DMA_FSMC
     LCD_IO_WriteReg(ILI9328_HASTART);
